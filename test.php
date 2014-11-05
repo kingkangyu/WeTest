@@ -145,8 +145,8 @@
 					return 0;
 				}
 				content = $(".keyword")[0].value;
-				tousername = $(".sendname")[0].value;
-				fromusername = $(".receivename")[0].value;
+				tousername = $(".receivename")[0].value;
+				fromusername = $(".sendname")[0].value;
 				funcflag = 0;
 				msgtype = "text";
 				data = data.replace("{tousername}",tousername);
